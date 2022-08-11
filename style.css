@@ -1,0 +1,108 @@
+/* Import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: url(./Images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #244BC5;
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 398px;
+    margin: 10rem auto;
+}
+
+.img-container {
+    width: 119.39px;
+    height: 97.85px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+img {
+    width: 117px;
+}
+
+input[type="text"] {
+    width: 297px;
+    height: 45px; 
+    padding-left: 50px;
+    background: transparent;
+    border: none;
+    outline: 1px solid rgb(255, 255, 255);
+    margin-top: 3rem;
+    /* margin-left: 1rem; */
+    border-radius: 4px;
+    background: url(./Images/username.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+input[type="password"] {
+    width: 297px;
+    height: 45px;
+    padding-left: 50px;
+    background: transparent;
+    border: none;
+    outline: 1px solid rgb(255, 255, 255);
+    margin-top: 1.5rem;
+    border-radius: 4px;
+    background-image: url(./Images/lock.png);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+
+::placeholder {
+    /* border: 1px solid red; */
+    color: white;
+    font-size: 14px;
+    /* font-weight: 300; */
+    text-transform: uppercase;
+    width: 96px;
+    opacity: 0.65;
+    letter-spacing: 1.2px;
+    
+}
+
+
+button {
+    width: 300px;
+    height: 45px;
+    margin-top: 3.7rem;
+    color: #2148C0;
+    background-color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px;
+    box-shadow: -1px 10px 7px -5px rgba(0,0,0,0.55);
+}
+
+a {
+    color: white;
+    /* border: 1px solid green; */
+    width: 148px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    left: 9.43rem;
+    top: 0.6rem;
+    cursor: pointer;
+    text-decoration: none;
+}
